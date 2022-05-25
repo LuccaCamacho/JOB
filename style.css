@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #483698;
+    --cta-0-color: #FBDE40;
+    --cta-1-color: #FFE766;
+    --secundary-0-color: #FFFFFF;
+    --secundary-1-color: #F9F9F9;
+    --danger-color: #DC3545;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'DM Sans';
+    font-size: 1.7rem;
+
+    text-align: left;
+
+    overflow: overlay;
+
+    background-color: var(--cta-1-color);
+}
+
+header .conteiner {
+    margin-top: 3rem;
+    border: solid 1px;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    border: none;
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+header .wrapper h13 {
+    color: transparent;
+}
+
+header .wrapper h1 {
+    font-family: "Comfortaa";
+    color: var(--primary-color);
+    font-size: 0.8em;
+}
+
+header .wrapper p {
+    margin-top: 1rem;
+    font-family: "Open Sans";
+    font-size: 0.6em;
+    font-weight: 600;
+}
+
+header .conteiner label {
+    font-size: 0.8rem;
+    font-family: "Open Sans";
+}
+
+header .conteiner label input {
+    display: flex;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-color: var(--primary-color);
+    border-radius: 0.3rem;
+}
+
+header .conteiner label input datalist {
+    display: flex;
+    margin-top: 0.1rem;
+    border: 1px solid;
+    border-color: var(--primary-color);
+    border-radius: 0.3rem;
+}
+
+.ests {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-areas: "A  B";
+}
