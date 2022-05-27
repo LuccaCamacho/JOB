@@ -11,6 +11,9 @@
     --secundary-0-color: #FFFFFF;
     --secundary-1-color: #F9F9F9;
     --danger-color: #DC3545;
+
+    font-size: 62.5%;
+    --nav-height: 7.2rem;
 }
 
 html {
